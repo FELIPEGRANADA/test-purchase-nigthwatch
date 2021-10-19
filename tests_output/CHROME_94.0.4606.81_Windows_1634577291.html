@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Results - CHROME 94.0.4606.81 Windows </title>
+
+  <style>
+    html, body {
+      font-family: Arial,sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body { padding: 10px 40px; }
+
+    table { width: 100%; margin-bottom: 20px; }
+
+      td {
+        padding: 7px;
+        border-top: none;
+        border-left: 1px black solid;
+        border-bottom: 1px black solid;
+        border-right: none;
+      }
+
+      td.pass { color: #003b07; background: #86e191; }
+      td.skip { color: #7d3a00; background: #ffd24a; }
+      td.fail { color: #5e0e00; background: #ff9c8a; }
+
+    tr:last-child       { border-top: 1px black solid; }
+      tr:last-child td    { border-top: 1px black solid; }
+      tr:first-child td   { border-top: 1px black solid; }
+        td:last-child       { border-right: 1px black solid; }
+
+    tr.overview td      { padding-bottom: 0px; border-bottom: none; }
+    tr.overview.last td { padding-bottom: 3px; }
+
+    ul.assertions   { list-style-type: none; }
+      span.error      { color: #AD2B2B; }
+      span.success    { color: #53891E; }
+
+    .stacktrace { display: inline; }
+      .stacktrace code { display: none; }
+
+    #nightwatch-logo {
+      position: absolute;
+      top: 20px;
+      right: 33px;
+      width: 70px;
+      height: 75px;
+      background: transparent url('http://nightwatchjs.org/img/logo-nightwatch.png') no-repeat;
+      background-size: 70px 75px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Test Results</h1>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr class="overview">
+      <td colspan="3" title="CHROME 94.0.4606.81 Windows "><strong>Browser:</strong> CHROME 94.0.4606.81 Windows </td>
+    </tr>
+    <tr class="overview">
+      <td colspan="3"><strong>Timestamp:</strong> Mon Oct 18 2021 12:14:51 GMT-0500 (hora estándar de Colombia)</td>
+    </tr>
+    <tr class="overview last">
+      <td colspan="3"><strong>Tests:</strong> 129<br></td>
+    </tr>
+    <tr>
+      <td class="pass"><strong>129</strong> passed</td>
+      <td class="skip"><strong>0</strong> errors</td>
+      <td class="fail"><strong>0</strong> failures</td>
+    </tr>
+  </table>
+
+      <h2>001.login.spec</h2>
+
+        <h3>Login test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 69 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the page title equals [0;33m&#x27;Swag Labs&#x27;[0m [0;90m(20ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@username]&gt;[0m is visible [0;90m(51ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@password]&gt;[0m is visible [0;90m(48ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@login_button]&gt;[0m is visible [0;90m(52ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 51 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL contains [0;33m&#x27;inventory.html&#x27;[0m [0;90m(81ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>7</strong></span> assertions passed. (2.933s)
+        </p>
+        <h3>OrderName Z-A test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@order_list]&gt;[0m is visible [0;90m(69ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (1.375s)
+        </p>
+        <h3>OrderName A-Z test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@order_list]&gt;[0m is visible [0;90m(39ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (0.5050s)
+        </p>
+        <h3>OrderPrice Low-High test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@order_list]&gt;[0m is visible [0;90m(41ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (0.6060s)
+        </p>
+        <h3>OrderPrice High-Low test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@order_list]&gt;[0m is visible [0;90m(88ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (0.6300s)
+        </p>
+        <h3>Add Product Cart test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@addcart_backpack]&gt;[0m is visible [0;90m(81ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;button[data-test&#x3D;remove-sauce-labs-backpack]&gt; was visible after 68 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;span[class&#x3D;shopping_cart_badge]&gt; was visible after 49 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@cart_counter]&gt;[0m contains text [0;33m&#x27;1&#x27;[0m [0;90m(86ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@addcart_tshirt]&gt;[0m is visible [0;90m(82ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;button[data-test&#x3D;remove-sauce-labs-bolt-t-shirt]&gt; was visible after 48 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;span[class&#x3D;shopping_cart_badge]&gt; was visible after 30 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@cart_counter]&gt;[0m contains text [0;33m&#x27;2&#x27;[0m [0;90m(29ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@addcart_jacket]&gt;[0m is visible [0;90m(47ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;button[data-test&#x3D;remove-sauce-labs-fleece-jacket]&gt; was visible after 60 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;span[class&#x3D;shopping_cart_badge]&gt; was visible after 26 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@cart_counter]&gt;[0m contains text [0;33m&#x27;3&#x27;[0m [0;90m(31ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@addcart_onesie]&gt;[0m is visible [0;90m(36ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;button[data-test&#x3D;remove-sauce-labs-onesie]&gt; was visible after 41 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;span[class&#x3D;shopping_cart_badge]&gt; was visible after 27 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@cart_counter]&gt;[0m contains text [0;33m&#x27;4&#x27;[0m [0;90m(47ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 28 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL contains [0;33m&#x27;cart.html&#x27;[0m [0;90m(14ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 237 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL contains [0;33m&#x27;inventory.html&#x27;[0m [0;90m(38ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>24</strong></span> assertions passed. (2.364s)
+        </p>
+        <h3>Remove Product Cart From Inventory test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@removecart_jacket]&gt;[0m is visible [0;90m(41ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;button[data-test&#x3D;add-to-cart-sauce-labs-fleece-jacket]&gt; was visible after 35 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;span[class&#x3D;shopping_cart_badge]&gt; was visible after 31 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@cart_counter]&gt;[0m contains text [0;33m&#x27;3&#x27;[0m [0;90m(34ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 30 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL contains [0;33m&#x27;cart.html&#x27;[0m [0;90m(15ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>7</strong></span> assertions passed. (0.6070s)
+        </p>
+        <h3>Remove Product Cart test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@removecart_onesie]&gt;[0m is visible [0;90m(46ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;span[class&#x3D;shopping_cart_badge]&gt; was visible after 38 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@cart_counter]&gt;[0m contains text [0;33m&#x27;2&#x27;[0m [0;90m(39ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>4</strong></span> assertions passed. (0.2990s)
+        </p>
+        <h3>Make checkout test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 27 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL contains [0;33m&#x27;checkout-step-one.html&#x27;[0m [0;90m(13ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@firstname]&gt;[0m is visible [0;90m(42ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@lastname]&gt;[0m is visible [0;90m(46ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@zip]&gt;[0m is visible [0;90m(44ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@continue_button]&gt;[0m is visible [0;90m(61ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 33 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL contains [0;33m&#x27;checkout-step-two.html&#x27;[0m [0;90m(15ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@item_total]&gt;[0m is visible [0;90m(55ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@tax_total]&gt;[0m is visible [0;90m(42ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@total]&gt;[0m is visible [0;90m(50ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Passed [ok]: true ok
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@finish_button]&gt;[0m is visible [0;90m(47ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 31 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL contains [0;33m&#x27;checkout-complete.html&#x27;[0m [0;90m(10ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@title_span]&gt;[0m contains text [0;33m&#x27;COMPLETE&#x27;[0m [0;90m(53ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@title_header]&gt;[0m contains text [0;33m&#x27;THANK YOU&#x27;[0m [0;90m(43ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@home_button]&gt;[0m is visible [0;90m(39ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 29 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL contains [0;33m&#x27;inventory.html&#x27;[0m [0;90m(10ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>21</strong></span> assertions passed. (2.020s)
+        </p>
+        <h3>Logout test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@menu_button]&gt;[0m is visible [0;90m(52ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;div[class&#x3D;bm-menu-wrap]&gt; was visible after 57 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@logout_item]&gt;[0m is visible [0;90m(45ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 34 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL is [0;33m&#x27;https://www.saucedemo.com/&#x27;[0m [0;90m(27ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>5</strong></span> assertions passed. (0.4910s)
+        </p>
+
+
+      <hr>
+      <h2>002.login.fail</h2>
+
+        <h3>Login username required test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 52 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the page title equals [0;33m&#x27;Swag Labs&#x27;[0m [0;90m(27ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@username]&gt;[0m is visible [0;90m(43ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@password]&gt;[0m is visible [0;90m(41ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@login_button]&gt;[0m is visible [0;90m(43ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;h3[data-test&#x3D;error]&gt; was visible after 43 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@field_error]&gt;[0m contains text [0;33m&#x27;Username&#x27;[0m [0;90m(38ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>7</strong></span> assertions passed. (2.940s)
+        </p>
+        <h3>Login password required test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@username]&gt;[0m is visible [0;90m(44ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@password]&gt;[0m is visible [0;90m(31ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@login_button]&gt;[0m is visible [0;90m(35ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;h3[data-test&#x3D;error]&gt; was visible after 30 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@field_error]&gt;[0m contains text [0;33m&#x27;Password&#x27;[0m [0;90m(36ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>5</strong></span> assertions passed. (0.7180s)
+        </p>
+        <h3>Login locked user test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@username]&gt;[0m is visible [0;90m(30ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@password]&gt;[0m is visible [0;90m(30ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@login_button]&gt;[0m is visible [0;90m(32ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;h3[data-test&#x3D;error]&gt; was visible after 31 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@field_error]&gt;[0m contains text [0;33m&#x27;locked out&#x27;[0m [0;90m(38ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>5</strong></span> assertions passed. (0.6930s)
+        </p>
+        <h3>Login invalid credentials test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@username]&gt;[0m is visible [0;90m(29ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@password]&gt;[0m is visible [0;90m(38ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@login_button]&gt;[0m is visible [0;90m(40ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;h3[data-test&#x3D;error]&gt; was visible after 32 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@field_error]&gt;[0m contains text [0;33m&#x27;do not match&#x27;[0m [0;90m(64ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>5</strong></span> assertions passed. (0.7350s)
+        </p>
+        <h3>Login open without credentials test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;h3[data-test&#x3D;error]&gt; was visible after 40 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@field_error]&gt;[0m contains text [0;33m&#x27;You can only access&#x27;[0m [0;90m(51ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (1.032s)
+        </p>
+
+
+      <hr>
+      <h2>003.checkout.fail</h2>
+
+        <h3>Navigate checkout test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 51 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the page title equals [0;33m&#x27;Swag Labs&#x27;[0m [0;90m(24ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@username]&gt;[0m is visible [0;90m(40ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@password]&gt;[0m is visible [0;90m(67ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@login_button]&gt;[0m is visible [0;90m(54ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 34 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL contains [0;33m&#x27;inventory.html&#x27;[0m [0;90m(115ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 32 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL contains [0;33m&#x27;cart.html&#x27;[0m [0;90m(12ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 33 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL contains [0;33m&#x27;checkout-step-one.html&#x27;[0m [0;90m(14ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>11</strong></span> assertions passed. (3.977s)
+        </p>
+        <h3>Checkout firstname required test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@firstname]&gt;[0m is visible [0;90m(72ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@lastname]&gt;[0m is visible [0;90m(49ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@zip]&gt;[0m is visible [0;90m(42ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@continue_button]&gt;[0m is visible [0;90m(54ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;h3[data-test&#x3D;error]&gt; was visible after 49 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@field_error]&gt;[0m contains text [0;33m&#x27;First Name&#x27;[0m [0;90m(42ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>6</strong></span> assertions passed. (0.7580s)
+        </p>
+        <h3>Checkout lastname required test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@firstname]&gt;[0m is visible [0;90m(30ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@lastname]&gt;[0m is visible [0;90m(40ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@zip]&gt;[0m is visible [0;90m(29ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@continue_button]&gt;[0m is visible [0;90m(27ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;h3[data-test&#x3D;error]&gt; was visible after 29 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@field_error]&gt;[0m contains text [0;33m&#x27;Last Name&#x27;[0m [0;90m(29ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>6</strong></span> assertions passed. (0.5690s)
+        </p>
+        <h3>Checkout zip required test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@firstname]&gt;[0m is visible [0;90m(27ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@lastname]&gt;[0m is visible [0;90m(46ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@zip]&gt;[0m is visible [0;90m(40ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@continue_button]&gt;[0m is visible [0;90m(31ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;h3[data-test&#x3D;error]&gt; was visible after 27 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@field_error]&gt;[0m contains text [0;33m&#x27;Postal Code&#x27;[0m [0;90m(44ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>6</strong></span> assertions passed. (0.7150s)
+        </p>
+
+
+      <hr>
+
+  <div id="nightwatch-logo"></div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script>
+  $(function() {
+    $('div.stacktrace').on('click', 'a', function(evt) {
+      evt.preventDefault();
+
+      var $link = $(this);
+      var $code = $link.parent().find('code');
+
+      $code.is(':visible') ? $link.text('hide stacktrace'):
+                             $link.text('view stacktrace');
+
+      $code.toggle();
+    });
+  });
+  </script>
+</body>
+</html>
